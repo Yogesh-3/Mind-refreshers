@@ -1,0 +1,17 @@
+def reverse(my_str):
+  
+  stack = []          # empty (stack) list to store data
+   
+  for char in my_str:
+      stack.append(char)
+  
+  rev=''
+  while len(stack) > 0:
+       last = stack.pop()
+       rev = rev + last
+       
+       
+  return rev
+i_str = input('string:')
+rev = reverse(i_str)
+print('Reversed is: ', rev)
