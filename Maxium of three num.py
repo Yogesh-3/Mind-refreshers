@@ -4,4 +4,4 @@ num3 = int(input("3rd number: "))
  
 largest = max(num1, num2, num3)  # can also use if else statement
  
-print("Largest number you entered is: ",largest)
+print(largest)
